@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/98a7caa772.js" crossorigin="anonymous"></script>
+    <title>Vanshika Singla</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="logo">
+                <ul id="side-menu">
+                    <li><a href=#header>Home</a></li>
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#services>Services</a></li>
+                    <li><a href=#portfolio>Portfolio</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Developer</p>
+                <h1>Hey! I am <span>Vanshika</span> Singla</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------ABOUT------------- -->
+    <div id="about">
+        <div class="container">
+           <div class="row">
+            <div class="about-col-1">
+                <img src="VANSHIKA.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi I am Vanshika Singla doing B.E in Information Technology from University Institute of Engineering and Technology, Panjab University Chandigarh. This is my portfolio website where you get to know about me more well. I have done frontend development including this and many more websites as projects. I want to persue my career in software development for that I learnt C/C++ and DSA never ending algorithms still learning still programming. Web Development is just my interest area just doing it for fun. It's really amazing to make websites give style to them and also make them responsive I just love making them.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Internships')">Internships</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Frontend Web Development</span><br>Designing Web Pages</li>
+                        <li><span>C/C++</span><br>Developing software</li>
+                        <li><span>Graphic Designing</span><br>Designing posters, potraits, cards..</li>
+                        <li><span>Data Structures and Algorithms</span><br>Problem Solving in less time and space</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2021-current</span><br>B.E in IT from UIET</li>
+                        <li><span>2021</span><br>Complete 12th from Lord Rama Public School</li>
+                        <li><span>2019</span><br>Complete 10th from DAV School</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Internships">
+                    <ul>
+                        <li><span>2022</span><br>Training in UIET (Web Development)</li>
+                        <li><span>2023</span><br>Neva Industries(Database Management)</li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <!-- ----------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-lists">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing websites using CSS features. It is very necessary to design websites to make them attractive. </p>
+                    <a href="https://www.simplilearn.com/what-is-web-designing-article">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hands"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Designing of various posters, cards, potraits, grids in a beautiful and eye catching manner. </p>
+                    <a href="https://www.interaction-design.org/literature/topics/graphic-design">Learn more</a>
+                </div><div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Software Development</h2>
+                    <p>Development of software or solving problems in software with C/C++, python and DSA as programming languages.</p>
+                    <a href="https://www.ibm.com/topics/software-development">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="word_analytics.png">
+                    <div class="layer">
+                        <h3><b>Word Analytics Website</b></h3>
+                        <p>This website counts number of characters, words in a paragraph or sentence. This also gives us the idea how much characters left for twitter and facebook post.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tin_dog.png">
+                    <div class="layer">
+                        <h3><b>Tin dog Website</b></h3>
+                        <p>Meeting new dogs interact with them. Make them your friends. All care free website for dogs</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="drum_kit.png">
+                    <div class="layer">
+                        <h3><b>Drum Kit</b></h3>
+                        <p>Now you can play music anywhere anytime. Drum kit provides users to make you own music and enjoy it.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href ="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>singlavanshu03@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9569134500</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="RESUME.pdf" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class=" btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Vanshika Singla. Frontened Web Developer</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
